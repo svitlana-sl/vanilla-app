@@ -54,6 +54,19 @@ li:first-letter {
   font-size: 16px;
   top: 3px;
 }
+.weather-temperature .active {
+  color: #d22780;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
 .overview {
   margin-bottom: 20px;
+}
+.search-button {
+  color: #fff;
+  background-color: #d22780;
+  border-color: #d22780;
 }

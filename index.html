@@ -34,7 +34,7 @@
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
+                  class="btn btn-primary w-100 search-button"
                 />
               </div>
             </div>
@@ -51,7 +51,10 @@
               <div class="d-flex weather-temperature">
                 <img src="" alt="" id="icon" />
                 <strong id="temperature"></strong
-                ><span class="units">°C | <a href="#">°F</a></span>
+                ><span class="units">
+                  <a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a></span
+                >
               </div>
             </div>
             <div class="col-6">
